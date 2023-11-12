@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--SEO를 위해 검색엔진이 사용할 keywords 정의-->
+  <meta name="keywords" content="HTML, CSS, XML, XHTML, JavaScript">
+  <!--웹 페이지의 설명 정의-->
+  <meta name="desciption" content="Web tutorials on HTML and CSS">
+  <!--웹 페이지의 저자 명기-->
+  <meta name="author" content="sirius-koo">
+  <!--웹 페이지를 초 단위로 Refresh-->
+  <meta http-equiv="refresh" content="60">
+
+  <title>문서 제목</title>
+  
+  <!--src 어트리뷰트 : 외부 JavaScript 파일 로드 가능-->
+  <script src="main.js"></script>
+
+  <!--link : 외부 리소스와의 연계 정보를 정의
+      주로 HTML과 외부 CSS 파일을 연계에 사용함-->
+  <link rel="stylesheet" href=""style.css">
+
+  <!--script : client-side JavaScript 정의-->
+  <script>
+    document.addEventListener('click', function() {
+      alert('Clicked!');
+    });
+  </script>
+
+
+  <!-- style : HTML 문서를 위한 style 정보를 정의함 -->
+  <style>
+    body {
+      background-color: gray;
+      color:white;
+    }
+  </style>
+  
+</head>
+<!--body tag : 메타데이터를 제외한 웹페이지를 구성하는
+               대부분의 요소가 body 요소 내에 기술-->
+<body>
+  안녕하세요, 저는 구남석이라고 합니다.
+</body>
+</html>
